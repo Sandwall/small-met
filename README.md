@@ -13,3 +13,6 @@ The large button in the middle starts/stops playback. The slider in the middle (
 
 ## Why?
 I play guitar. This small project was simply the result of me wanting something small that would get the job of a metronome done, that wouldn't use too much memory or CPU on my computer. I also wanted to gain some experience and start off by creating something small from scratch for the first time.
+
+## Dependiences
+[SDL](https://www.libsdl.org/download-2.0.php) is the only dependency that I've used, beside the C++ standard library. I've compiled this program with Microsoft Visual Studio 2019, so that release will most likely require downloading and installing the [Visual C++ 2019 redistributables](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
