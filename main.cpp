@@ -91,8 +91,8 @@ int main(int argc, char* args[]) {
 		if (window == NULL) { std::cout << "Error, window could not be initialized."; }
 		else {
 			//Audio initialization
-			SDL_LoadWAV("Perc_MetronomeQuartz_hi.wav", &wavSpec, &wavBuffer, &wavLength);
-			SDL_LoadWAV("Perc_MetronomeQuartz_lo.wav", &wavSpec, &wavBuffer2, &wavLength2);
+			SDL_LoadWAV("data/s_met_hi.wav", &wavSpec, &wavBuffer, &wavLength);
+			SDL_LoadWAV("data/s_met_lo.wav", &wavSpec, &wavBuffer2, &wavLength2);
 
 			deviceId = SDL_OpenAudioDevice(NULL, 0, &wavSpec, NULL, 0);
 			//std::cout << "Audio device is: " << SDL_GetAudioDeviceName()
