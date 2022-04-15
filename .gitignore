@@ -1,0 +1,5 @@
+# Visual Studio Folders
+x64/
+*.user
+*.filters
+*.vcxproj
